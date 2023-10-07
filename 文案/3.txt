@@ -1,0 +1,5 @@
+我今年24岁了，土木毕业的，干工程两年的，工资只有区区的八千，我决定了转行学Java了，我要挑战月入过万的感觉。今天是零基础学习Java的第三天，今天学习ArrayList和Hashmap。 学习 ArrayList 类的一些常见操作API，比如add添加元素    get  获取元素  set  修改元素  remove  删除元素  size  获取列表大小  ，默认情况下，ArrayList 会在需要扩容时将其容量（数组大小）增加为原来的1.5倍。当 ArrayList 进行自动扩容时，它会考虑当前容器的负载因子。如果添加元素后，容器的负载因子超过了预先设定的阈值0.75，ArrayList 就会触发自动扩容操作。
+
+ 我还在IDEA 安装了chatgpt ,不会直接问gpt，学习更快了，还学习了HashMap的基本操作，创建一个HashMap  使用put方法向HashMap中插入键值对。  使用get方法通过键获取值。  使用containsKey方法检查键是否存在于HashMap中。  使用keySet  迭代HashMap ，使用entrySet迭代键值对，还可以使用forEach方法 ，你看我写的创建一个HashMap，输入一段文本，然后输出每个单词及其出现的次数。学习Java也太简单了，在 JDK 8 之前，HashMap 使用链表来解决哈希碰撞，多个键值对可以存储在同一个桶中的链表中。从 JDK 8 开始，当链表长度超过一定阈值时，链表会被转换为红黑树，以提高性能。
+
+
